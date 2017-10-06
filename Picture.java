@@ -65,12 +65,12 @@ public class Picture
         
         sun2 = new Circle(); 
         sun2.changeColor("blue");
-        sun2.moveHorizontal(-300);
+        sun2.moveHorizontal(100);
         sun2.moveVertical(130);
         sun2.changeSize(90);
         sun2.makeVisible();
-        sun2.slowMoveHorizontal(100);
-        sun2.slowMoveVertical(-40);
+                    
+        
     }
 
     /**
