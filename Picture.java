@@ -17,6 +17,7 @@ public class Picture
     private Circle sun;
     private Square pradera;
     private Circle sun2;
+    private Person Person;
     /**
      * Constructor for objects of class Picture
      */
@@ -70,6 +71,12 @@ public class Picture
         sun2.changeSize(90);
         sun2.makeVisible();
         
+        Person = new Person();
+        Person.changeColor("yellow");
+        Person.moveHorizontal(25);
+        Person.moveVertical(10);
+        Person.changeSize(60,30);
+        Person.makeVisible();
         
         
         
@@ -110,6 +117,7 @@ public class Picture
     {
           
             sun2.slowMoveVertical(70);
+            Person.slowMoveHorizontal(-30);
         }
      }
 
